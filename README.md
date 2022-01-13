@@ -9,11 +9,9 @@
 ###
 
 # Login
-- Login, register with email. \\
-    ![alt](https://firebasestorage.googleapis.com/v0/b/trade-50f47.appspot.com/o/271783465_1072213800246005_8797211957612358744_n.jpg?alt=media&token=f30f6ecd-4861-49f2-988b-c12a9e06623d)
+- Login, register with email.  ![alt](https://firebasestorage.googleapis.com/v0/b/trade-50f47.appspot.com/o/271783465_1072213800246005_8797211957612358744_n.jpg?alt=media&token=f30f6ecd-4861-49f2-988b-c12a9e06623d)
 # Homepage
-- All post off other people, swipe left to like post, right to dislike. if match, add new notification. \\
-    ![alt](https://firebasestorage.googleapis.com/v0/b/trade-50f47.appspot.com/o/271388390_289727199883802_4289307783649281663_n.jpg?alt=media&token=c667f75e-7d37-4fdc-a2e7-6d73d0f2b1e9)
+- All post off other people, swipe left to like post, right to dislike. if match, add new notification.  ![alt](https://firebasestorage.googleapis.com/v0/b/trade-50f47.appspot.com/o/271388390_289727199883802_4289307783649281663_n.jpg?alt=media&token=c667f75e-7d37-4fdc-a2e7-6d73d0f2b1e9)
     ![alt](https://firebasestorage.googleapis.com/v0/b/trade-50f47.appspot.com/o/271384213_667022014739425_1935766039238644422_n.jpg?alt=media&token=50bfbfc3-413d-446d-8e10-fbc825bd4e66)
   
 # Notification
