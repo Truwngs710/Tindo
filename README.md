@@ -33,9 +33,9 @@
   ![alt](https://firebasestorage.googleapis.com/v0/b/trade-50f47.appspot.com/o/269863756_4844688208923480_9038487377725265758_n.jpg?alt=media&token=970f565e-3320-4374-beca-adcc40b48742)
   ![alt](https://firebasestorage.googleapis.com/v0/b/trade-50f47.appspot.com/o/270214389_598949641198050_2626801568235802688_n.jpg?alt=media&token=1266f323-cfeb-4584-b38d-e0ca208c405a)
 # Edit profile
-- Edit your profile<space><space>
+- Edit your profile <space><space>
   ![alt](https://firebasestorage.googleapis.com/v0/b/trade-50f47.appspot.com/o/270780871_1557896407921326_5792751813755953316_n.jpg?alt=media&token=917db393-3602-491b-af9e-224368a51ed9)
 # Add post
-- Add new post<space><space>
+- Add new post <space><space>
 ![alt](https://firebasestorage.googleapis.com/v0/b/trade-50f47.appspot.com/o/267329437_323551879658642_6086756978827890332_n.jpg?alt=media&token=0622bd81-b65d-4e57-9f78-77240a2d4c91)
   
