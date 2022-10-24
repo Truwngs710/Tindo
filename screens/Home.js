@@ -78,10 +78,7 @@ const HomeCard = () => {
       style={styles.bg}
     >
       <View style={styles.containerHome}>
-        <View style={styles.top}>
-          <City />
-          <Filters />
-        </View>
+   
 
         <CardStack
           verticalSwipe={false}
