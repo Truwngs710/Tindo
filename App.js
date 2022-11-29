@@ -6,13 +6,12 @@ import LoginScreen from "./SigninScreens/LoginScreen";
 import Homepage from "./Homepage";
 import Editpf from "./function/EditProfile";
 import Addpost from "./function/addPost";
-import Chatbox from "./function/Chatbox"
-
+import Chatbox from "./function/Chatbox";
 
 /*
 #################################################################
 #                             _`			        #   Ngọc Thương   #
-#                          _ooOoo_			      #   Phương Trinh 	#
+#                          _ooOoo_			                        #
 #                         o8888888o			                      	#
 #                         88" . "88			                      	#
 #                         (| -_- |)			                      	#
@@ -46,7 +45,6 @@ import Chatbox from "./function/Chatbox"
 const Stack = createNativeStackNavigator();
 
 export default function App() {
-
   return (
     <NavigationContainer>
       <Stack.Navigator>
@@ -56,11 +54,14 @@ export default function App() {
           name="Home"
           component={Homepage}
         />
-       
+
         <Stack.Screen name="Editprofile" component={Editpf} />
         <Stack.Screen name="Addpost" component={Addpost} />
-        <Stack.Screen  options={{ headerShown: false }} name="Chatbox" component={Chatbox} />
-
+        <Stack.Screen
+          options={{ headerShown: false }}
+          name="Chatbox"
+          component={Chatbox}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );

@@ -6,6 +6,7 @@ import { Ionicons } from "@expo/vector-icons";
 import Profile from "./screens/Profile";
 import Market from "./screens/Market";
 import Notification from "./screens/Notification";
+import { Text, TouchableOpacity, View } from "react-native";
 
 const Tab = createBottomTabNavigator();
 
@@ -13,6 +14,20 @@ export default function Homepage() {
   return (
     <Tab.Navigator
       screenOptions={({ route }) => ({
+        headerRight: () => {
+          return(
+            <View>
+              <TouchableOpacity style={{ marginRight: 10}}>
+                <Ionicons
+                 name={'logo-ionitron'}
+                 size={30}
+                 color={'yealow'}
+                />
+                 
+              </TouchableOpacity>
+            </View>
+          )
+        },
         tabBarIcon: ({ focused, color, size }) => {
           if (route.name === "Lobby") {
             return (
