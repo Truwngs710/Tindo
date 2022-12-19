@@ -7,6 +7,7 @@ import Homepage from "./Homepage";
 import Editpf from "./function/EditProfile";
 import Addpost from "./function/addPost";
 import Chatbox from "./function/Chatbox";
+import Chatbot from "./BotChat/ChatBot";
 
 /*
 #################################################################
@@ -61,6 +62,11 @@ export default function App() {
           options={{ headerShown: false }}
           name="Chatbox"
           component={Chatbox}
+        />
+        <Stack.Screen
+          options={{ headerShown: false }}
+          name="Chatbot"
+          component={Chatbot}
         />
       </Stack.Navigator>
     </NavigationContainer>

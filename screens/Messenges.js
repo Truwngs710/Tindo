@@ -24,7 +24,7 @@ const Messages = ({route, navigation}) => {
 
 
   const Chatbox = () => {
-    navigation.replace("Chatbox");
+    navigation.navigate("Chatbox");
     
   }
 

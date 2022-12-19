@@ -7,17 +7,20 @@ import Profile from "./screens/Profile";
 import Market from "./screens/Market";
 import Notification from "./screens/Notification";
 import { Text, TouchableOpacity, View } from "react-native";
+import Chatbot from "./BotChat/ChatBot";
 
 const Tab = createBottomTabNavigator();
 
 export default function Homepage() {
   return (
     <Tab.Navigator
-      screenOptions={({ route }) => ({
+      screenOptions={({ route, navigation }) => ({
         headerRight: () => {
           return(
             <View>
-              <TouchableOpacity style={{ marginRight: 10}}>
+              <TouchableOpacity style={{ marginRight: 10}}
+              onPress={() => navigation.navigate(Chatbot)}
+              >
                 <Ionicons
                  name={'logo-ionitron'}
                  size={30}
