@@ -43,34 +43,28 @@ const Chatbot = ({ route, navigation }) => {
     
   }, []);
 
-  const handelGGRes = (result) => {
-   let messend = result.queryResult.fulfillmentMessages[0].text.text[0];
-    return messend;
-
+  const handelGGRes = async (result) => {
+   let messend = await result.queryResult.fulfillmentMessages[0].text.text[0];
+   let messendback =  {
+    _id: 1,
+    text: messend,
+    createdAt: new Date(),
+    user: Bot
+  }
+  console.log(messend);
+setMessages(previousMessages => GiftedChat.append(previousMessages, messendback))
   }
 
   const onSend = useCallback((messages = []) => {
    console.log(messages[0].text);
    let messend = messages[0].text;
-   Dialogflow_V2.requestQuery(messend,(result) => handelGGRes(result,messages), {})
    setMessages(previousMessages => GiftedChat.append(previousMessages, messages))
+   Dialogflow_V2.requestQuery(messend,(result) => handelGGRes(result), {})
 
    console.log(messages);
   }, []);
  
-  const onQuickReply = useCallback((messages = []) => {
-    console.log(messages[0].text);
-    let messend = messages[0].text;
-    let messendback = {
-      _id: messages._id,
-      text: messend,
-      createdAt: new Date(),
-      user: Bot
-    }
-    // Dialogflow_V2.requestQuery(messend,(result) => handelGGRes(result,messages), {})
-    // setMessages(previousMessages => GiftedChat.append(previousMessages, messendback))
-
-   }, []);
+ 
   return (
     <>
       <ImageBackground
@@ -81,7 +75,6 @@ const Chatbot = ({ route, navigation }) => {
           messages={messages}
           onSend={(mes) => onSend(mes)}
           user={{ _id: 1 }}
-          onQuickReply={onQuickReply}
         />
       </ImageBackground>
     </>
