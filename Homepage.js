@@ -24,7 +24,6 @@ export default function Homepage() {
                 <Ionicons
                  name={'logo-ionitron'}
                  size={30}
-                 color={'yealow'}
                 />
                  
               </TouchableOpacity>
