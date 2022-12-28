@@ -46,22 +46,18 @@ const Chatbot = ({ route, navigation }) => {
   const handelGGRes = async (result) => {
    let messend = await result.queryResult.fulfillmentMessages[0].text.text[0];
    let messendback =  {
-    _id: 1,
+    _id: messages.length()+1,
     text: messend,
     createdAt: new Date(),
     user: Bot
   }
-  console.log(messend);
 setMessages(previousMessages => GiftedChat.append(previousMessages, messendback))
   }
 
   const onSend = useCallback((messages = []) => {
-   console.log(messages[0].text);
    let messend = messages[0].text;
    setMessages(previousMessages => GiftedChat.append(previousMessages, messages))
    Dialogflow_V2.requestQuery(messend,(result) => handelGGRes(result), {})
-
-   console.log(messages);
   }, []);
  
  
