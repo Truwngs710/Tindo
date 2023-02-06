@@ -46,7 +46,7 @@ const Chatbot = ({ route, navigation }) => {
   const handelGGRes = async (result) => {
    let messend = await result.queryResult.fulfillmentMessages[0].text.text[0];
    let messendback =  {
-    _id: messages.length()+1,
+    _id: uuid.v4(),
     text: messend,
     createdAt: new Date(),
     user: Bot
