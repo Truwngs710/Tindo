@@ -29,7 +29,6 @@
   ![alt](https://firebasestorage.googleapis.com/v0/b/trade-50f47.appspot.com/o/270085827_1260087524498975_5626419952004449904_n.jpg?alt=media&token=0de613fd-437e-4b82-a550-3aff3bbd9f69)
 # Profile
 - Show all your information, posts, delete post.                                        
-  ![alt](https://firebasestorage.googleapis.com/v0/b/trade-50f47.appspot.com/o/270569397_475669713984653_3850379695577674895_n.jpg?alt=media&token=f52c118d-dd43-4d57-8fe8-b12e5d3eb628)
   ![alt](https://firebasestorage.googleapis.com/v0/b/trade-50f47.appspot.com/o/269863756_4844688208923480_9038487377725265758_n.jpg?alt=media&token=970f565e-3320-4374-beca-adcc40b48742)
   ![alt](https://firebasestorage.googleapis.com/v0/b/trade-50f47.appspot.com/o/270214389_598949641198050_2626801568235802688_n.jpg?alt=media&token=1266f323-cfeb-4584-b38d-e0ca208c405a)
 # Edit profile
